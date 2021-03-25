@@ -1,0 +1,136 @@
+body,html{
+    margin:0;
+}
+
+.s1{
+    height: 652px;
+    background: url(pdpu-0010.jpg);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.nav1{
+    list-style:none;
+    margin:0;
+    padding-right:4px;
+    text-align:center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.nav1 li{
+    display:inline;
+    color: white;
+    padding: 5px;
+}
+
+.nav1 a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.navbar{
+    margin-top: 70px;
+    margin-left: 100px;
+    box-shadow: 2px 1px 1px 1px #888888;
+    margin-right: 170px;
+
+}
+
+.nav-item{
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.s2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.s3{
+    height: 550px;
+    background-color: #f0ece3;
+    margin-top: 0px;
+    padding: 2px;
+    align-content:center;
+    text-align: center;
+}
+
+.s4{
+    height: auto;
+    background-color:antiquewhite;
+    background: url(pdpu-0010.jpg);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.shrey{
+    display: inline-flex;
+    text-align: center;
+}
+
+.imgtxt{
+    height: 100%;
+    width: 500px;
+    margin-left: 75px;
+}
+.txt{
+  width: 100%;
+  font-size: 23;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:ghostwhite;
+  display: inline-block;
+  position: relative;
+    margin-right: 75px;
+}
+
+.s5{
+    height: 157px;
+    background-color: #f0ece3;
+    /*background-color: #1D1D1D;*/
+
+}
+
+.schools:hover{
+  transform: scale(1.1);
+
+}
+
+.z2{
+    background-color: #1D1D1D;
+    color: #9E9E9E;
+    padding: 10px;
+    text-align: center;
+    font-size: 15;
+}
+
+.z3{
+    color:hotpink;
+}
+.z3:hover{
+    color:black;
+}
+
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+a{
+    color: #9E9E9E;
+    text-decoration: none;
+}

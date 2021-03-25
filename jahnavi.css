@@ -1,0 +1,62 @@
+.s2{
+  width: 100%;
+  height: auto;
+    text-align: center;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.s2 .sld{
+  display: inline-flex;
+ padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.s2.icon{
+  border: 10px;
+}
+.s2 .overlay {
+  position: absolute;
+  bottom: 17.5%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 50%;
+  transition: .5s ease;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.sld:hover .overlay {
+  width: 50%;
+  opacity: 1;
+}
+
+.s2 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.s2 .text p{
+  font-size: 2em;
+}
+.s2 .text a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
